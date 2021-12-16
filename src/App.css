@@ -1,10 +1,9 @@
-.board { 
+.board {
   width: 550px;
 }
 
 .cell {
-  display: inline-block;
-  text-align: center;
+  display: inline-block;  text-align: center;
   line-height: 100px;
   margin: 10px;
   width: 100px;
