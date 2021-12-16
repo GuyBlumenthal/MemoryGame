@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/MemoryGame/static/css/main.4a67f169.chunk.css",
+    "main.js": "/MemoryGame/static/js/main.0b67fc7c.chunk.js",
+    "main.js.map": "/MemoryGame/static/js/main.0b67fc7c.chunk.js.map",
+    "runtime-main.js": "/MemoryGame/static/js/runtime-main.9bebd1bf.js",
+    "runtime-main.js.map": "/MemoryGame/static/js/runtime-main.9bebd1bf.js.map",
+    "static/js/2.cf74051a.chunk.js": "/MemoryGame/static/js/2.cf74051a.chunk.js",
+    "static/js/2.cf74051a.chunk.js.map": "/MemoryGame/static/js/2.cf74051a.chunk.js.map",
+    "index.html": "/MemoryGame/index.html",
+    "static/css/main.4a67f169.chunk.css.map": "/MemoryGame/static/css/main.4a67f169.chunk.css.map",
+    "static/js/2.cf74051a.chunk.js.LICENSE.txt": "/MemoryGame/static/js/2.cf74051a.chunk.js.LICENSE.txt",
+    "static/media/photo (1).cd568ec6.jpg": "/MemoryGame/static/media/photo (1).cd568ec6.jpg",
+    "static/media/photo (10).7d263fbe.jpg": "/MemoryGame/static/media/photo (10).7d263fbe.jpg",
+    "static/media/photo (11).847752e2.jpg": "/MemoryGame/static/media/photo (11).847752e2.jpg",
+    "static/media/photo (12).16e0d6d4.jpg": "/MemoryGame/static/media/photo (12).16e0d6d4.jpg",
+    "static/media/photo (13).9ea0b917.jpg": "/MemoryGame/static/media/photo (13).9ea0b917.jpg",
+    "static/media/photo (14).4195467f.jpg": "/MemoryGame/static/media/photo (14).4195467f.jpg",
+    "static/media/photo (15).b665489c.jpg": "/MemoryGame/static/media/photo (15).b665489c.jpg",
+    "static/media/photo (16).12461e05.jpg": "/MemoryGame/static/media/photo (16).12461e05.jpg",
+    "static/media/photo (17).e8cffdc7.jpg": "/MemoryGame/static/media/photo (17).e8cffdc7.jpg",
+    "static/media/photo (18).20c50981.jpg": "/MemoryGame/static/media/photo (18).20c50981.jpg",
+    "static/media/photo (2).2b131120.jpg": "/MemoryGame/static/media/photo (2).2b131120.jpg",
+    "static/media/photo (3).db72026e.jpg": "/MemoryGame/static/media/photo (3).db72026e.jpg",
+    "static/media/photo (4).64e5b4b9.jpg": "/MemoryGame/static/media/photo (4).64e5b4b9.jpg",
+    "static/media/photo (5).d393563f.jpg": "/MemoryGame/static/media/photo (5).d393563f.jpg",
+    "static/media/photo (6).69c9e757.jpg": "/MemoryGame/static/media/photo (6).69c9e757.jpg",
+    "static/media/photo (7).5592000f.jpg": "/MemoryGame/static/media/photo (7).5592000f.jpg",
+    "static/media/photo (8).7304448c.jpg": "/MemoryGame/static/media/photo (8).7304448c.jpg",
+    "static/media/photo (9).80fac957.jpg": "/MemoryGame/static/media/photo (9).80fac957.jpg",
+    "static/media/red.7c68a225.png": "/MemoryGame/static/media/red.7c68a225.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bebd1bf.js",
+    "static/js/2.cf74051a.chunk.js",
+    "static/css/main.4a67f169.chunk.css",
+    "static/js/main.0b67fc7c.chunk.js"
+  ]
+}
