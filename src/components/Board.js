@@ -1,9 +1,8 @@
 import { useState } from "react";
-import "./App.css";
-import Cell from "./components/Cell";
+import Cell from "./Cell";
 
-function generateBoard(n) {
-  const gridSize = n ** 2;
+function generateBoard(pairs) {
+  const gridSize = 2 * pairs;
 
   const numScrambles = 1000000;
 
@@ -47,12 +46,13 @@ function select(index, board, setBoard, solved, setSolved) {
   }
 }
 
-function App() {
-  const size = 4;
+function Board() {
+  const pairs = 12;
 
-  const [board, setBoard] = useState(generateBoard(size));
-  const [solved, setSolved] = useState([...Array(size ** 2 / 2)].fill(false));
+  const [board, setBoard] = useState(generateBoard(pairs));
+  const [solved, setSolved] = useState([...Array(pairs)].fill(false));
 
+  // return <div className="board">Hi</div>;
   return (
     <div className="board">
       {board.map((val, index) => (
@@ -67,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default Board;

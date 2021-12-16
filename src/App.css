@@ -1,35 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+:root {
+  --bg-color: #ff9b9b;
+  --fill-color: #cde7ff;
+  --tile-color: #83ea81;
+  --tile-size: 7em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  background-color: var(--bg-color);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  min-height: var(--tile-size);
+  min-width: var(--tile-size);
+  background: var(--fill-color);
+}
+
+.header .counter * {
+  margin: 0;
+}
+
+.header .title {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.header h2 {
+  color: #7b7b7b;
+  margin: 0.1em;
+  font-size: 1em;
+}
+
 .board {
-  width: 30em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.5em 0.2em;
+  width: 55%;
+  margin-top: 2em;
+  background-color: var(--fill-color);
+  border-radius: 2%;
 }
 
 .cell {
-  width: 5rem;
-  height: 5rem;
-  margin: 1rem;
-  background-color: black;
-  color: white;
-  border: 4px solid black;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 10%;
+  margin: 1% 2.5%;
+  background-color: var(--tile-color);
+  border-radius: 10%;
 
-  transition: border-color 500ms ease;
-  transition: transform 500ms ease;
-}
+  box-shadow: 0;
+  outline: 0;
 
-.cell:not(.selected):hover {
-  transform: scale(1.05);
-  border-color: green;
-}
+  overflow: hidden;
 
-.selected {
-  background-image: attr(img);
-  transition: border-color 0ms;
-  border: 4px solid red;
-  cursor: auto;
+  transition-duration: 1s;
+  transition-property: box-shadow, transform, outline;
+  transition-timing-function: ease-in;
 }
 
 .cell img {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.cell:before {
+  content: "";
+  float: left;
+  padding-top: 100%;
+}
+
+.cell:not(.selected):hover {
+  transition: box-shadow 1s ease;
+  transform: scale(1.05);
+  box-shadow: 0 0.1em 1em 0 rgb(20 0 255);
+  outline: 1px solid hsl(0 0 0 / 0.25);
+}
+
+.selected {
+  cursor: auto;
+}
+
+.box img {
   opacity: 0;
   width: 100%;
   height: 100%;
